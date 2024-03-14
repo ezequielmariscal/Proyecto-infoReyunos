@@ -1,8 +1,21 @@
 import React from 'react'
+import Search from '../components/Search/Search'
+import IntroPost from '../components/IntroPost/IntroPost'
+import Blogs from '../components/Blogs/Blogs'
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        
+        <Header/>
+        <Search/>
+        <IntroPost/>
+        <Blogs/>
+        <Footer/>
+
+    </div>
   )
 }
 
