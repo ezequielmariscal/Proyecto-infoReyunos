@@ -1,13 +1,13 @@
 import React from 'react'
 
-const introReyu = <h2>Bienvenido a la zona de reyunos este es un blog donde se explican sus caracteristicas</h2>
+const introReyu = <p>Bienvenido a la zona de reyunos este es un blog donde se explican sus caracteristicas</p>
 
 
 function IntroPost() {
 
   return (
     
-    <div>
+    <div className='text-black'>
       <h1>Introducción Embalse los Reyunos</h1>
       {introReyu}
       <h3>El presente trabajo se ha realizadoo para aportar conocimiento acerca de 

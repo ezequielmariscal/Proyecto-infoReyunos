@@ -7,7 +7,7 @@ import Footer from '../components/Footer/Footer'
 
 function Home() {
   return (
-    <div>
+    <div className='bg-[#a3c9a8]'>
         
         <Header/>
         <Search/>
