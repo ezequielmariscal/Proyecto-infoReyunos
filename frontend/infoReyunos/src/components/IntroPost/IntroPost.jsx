@@ -1,6 +1,6 @@
 import React from 'react'
 
-const introReyu = <p>Bienvenido a la zona de reyunos este es un blog donde se explican sus caracteristicas</p>
+const introReyu = <p className='p-2 text-sa font-semibold'>Bienvenido a la zona de reyunos este es un blog donde se explican sus caracteristicas</p>
 
 
 function IntroPost() {
@@ -8,9 +8,9 @@ function IntroPost() {
   return (
     
     <div className='text-black'>
-      <h1>Introducción Embalse los Reyunos</h1>
+      <h1 className='text-4xl font-semibold'>Introducción Embalse los Reyunos</h1>
       {introReyu}
-      <h3>El presente trabajo se ha realizadoo para aportar conocimiento acerca de 
+      <h3 className='p-2 space-y-3 leading-normal'>El presente trabajo se ha realizadoo para aportar conocimiento acerca de 
         la cuenca el diamante y principalmente sobre "Los Reyunos", surge a travéz
         de exposiciones verbales implementada en la zona turistica para socabar dudas
         que puedan surgir.
