@@ -1,0 +1,10 @@
+<Cards 
+            title="Tuna" 
+            image= {tomillo}
+            subtitle= "Denmoza rodacantha"
+            description="Cactácea columnar de hasta 2 m. de alto con flores asimétricas, rojas. Es visitada por
+            los colibríes.
+            Junto cono otro cardón (Lobivia formosa), más grueso que el anterior y pudiendo pasar los 2 m. de 
+            altura, de flores simétricas de color ámbar, formaban los hermosísimos cardonales de las quebradas 
+            orientales de la Precordillera, actualmente desaparecido por los fuegos."
+          />

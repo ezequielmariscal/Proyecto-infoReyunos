@@ -7,6 +7,35 @@ import geologia from '/src/assets/images/geologia.png'
 import mapaFitogeografico from '/src/assets/images/mapaFitogeografico.png'
 import tomillo from '/src/assets/images/tomillo.png'
 import Cards from '/src/components/Cards/Cards.jsx'
+import bigua from '/src/assets/images/bigua.png'
+import carpa from '/src/assets/images/carpa.png'
+import catita from '/src/assets/images/catita.png'
+import ceboAndino from '/src/assets/images/ceboAndino.png'
+import chinhillon from '/src/assets/images/chinchillon.png'
+import chimango from '/src/assets/images/chimango.png'
+import condorAndino from '/src/assets/images/condorAndino.png'
+import gatoAndino from '/src/assets/images/gatoAndino.png'
+import gatoMontes from '/src/assets/images/gatoMontes.png'
+import guanaco from '/src/assets/images/guanaco.png'
+import pumaAndino from '/src/assets/images/pumaAndino.png'
+import zorroGris from '/src/assets/images/zorroGris.png'
+import algarroboDulce from '/src/assets/images/algarroboDulce.png'
+import chañarBrea from '/src/assets/images/chañarBrea.png'
+import clavelAire from '/src/assets/images/clavelAire.png'
+import coiron from '/src/assets/images/coiron.png'
+import falsaJarilla from '/src/assets/images/falsaJarilla.png'
+import jarilla from '/src/assets/images/jarilla.png'
+import penca from '/src/assets/images/penca.png'
+import piquillin from '/src/assets/images/piquillin.png'
+
+
+
+
+
+
+
+
+
 
 function Blogs() {
   return (
@@ -219,20 +248,283 @@ function Blogs() {
             </div>
         </article>
 
-        <div className="grid">
+        <div className='grid grid-cols-2 p-4 mx-auto gap-2 sm:grid-cols-3 sm:gap-3'>
+          <Cards 
+            title="Algarrobo dulce" 
+            image= {algarroboDulce}
+            subtitle= "Prosopis flexuosa"
+            description="Árbol que puede llegar a 8 m, copa muy difusa, espinoso, su fruto, la 
+            algarroba, ees una vaina carnosa, muy dulce, En planta freatófita que puede 
+            alcanzar con sus raíces 20 m. de profundidad.
+            Con sus frutos se elabora la aloja, la añapa y el patay, su madera se usa para postes,
+             carbón, pisos de parquet, etc.   "
+          />
+          <Cards 
+            title="Chañar" 
+            image= {chañarBrea}
+            subtitle= "Geoffroea decorticans"
+            description="Árbol que puede llegar 4-5 m. de alto, con raíces gemíferas debido a lo cual
+            tiende a formar colonias. La corteza (ritidomis) se desprende en bandas, dejando ver el tallo 
+            verde, lustroso. Ramitas espiniformes, hojas imparipinadas con el folíolo terminal mayor. Flores
+             amarillas con estrías rojizas, fruto una drupa de carne pastosa.
+             Árbol infaltable en nuestra llanuras, llega hasta los 1100 m.s.m. Su madera se usa mucho para 
+             barretas, cabos, etc. Su fruto es comestible."
+          />
+          
+          <Cards 
+            title="Jarilla" 
+            image= {jarilla}
+            subtitle= "Larrea cuneifolia, L. divaricata"
+            description="Arbusto más representativo de mendoza, Ambas especies resinosas y perfumadas, pueden
+            llegar a 2 m. la primera y mucho más la segunda, se diferencian por sus hojas cuyo folíolos están 
+            en parte unidos, en la primera forman una especie de cuña, en la seunda, sólo unidos por la base y 
+            son divergentes.
+            Además se diferencian por su ramificación, en una las ramas forman planos orientados de este-oeste, 
+            en la otra (L. divaricata) el ramaje es difuso sin orientación definida. Mientras L. cuneifolia pre
+            fiere suelos arcillosos, la divaricata los arenosos y profundos.
+            Muy utilizadas para combustible, construcciones de quinchos, corrales, como medicinales, etc., han 
+            sido y son fuertemente cosechadas. "
+          />
+          <Cards 
+            title="Falsa Jarilla" 
+            image= {falsaJarilla}
+            subtitle= "Zuccagnia punctacta"
+            description="Arbusto, aveces de porte arbóreo, perenne, resinoso, pegajoso, perfumado. Hojas compues
+            tas. Flores amarillo anaranjado."
+          />
+          
+          <Cards 
+            title="Piquillín" 
+            image= {piquillin}
+            subtitle= "Condalia microphylla"
+            description="Arbusto de hasta 3 m., copa densa con ramas espinescentes, hojas pequeñas en fascículos, 
+            al igual que sus frutos, bayas de 4-5 mm de diámetro, normalmente rojas (pueden ser tambien amarillas 
+            o negro).
+            Planta muy perseguida para leña por la excelente brasa que produce. Sus frutos son comestibles y con 
+            ellos los indígenas preparaban un licor."
+          />
+          <Cards 
+            title="Penca" 
+            image= {penca}
+            subtitle= "Opuntia sulphurea"
+            description="Cactácea de ramaas plantas y ovoides. Flores 7-9 cm de diámetro, regulares, amarillas. 
+            Fruto tuna del mismo color, comestiblee."
+          />
+          <Cards 
+            title="Clavel del aire" 
+            image= {clavelAire}
+            subtitle= "Tillandsia xyphioides"
+            description="Bromliáea epífita, filodios arrostesados, carnosos, grises, cubierto de pelos escamosos;
+            espigas con 4-5 flores de 10-15 cm. de largo, pétalos blanos, delicadamente aromáticas. Es una de 
+            nuestras más hermosas al par que curiosas plantas. En vías d extinción por la permanente extracción 
+            que se hace de ella en los campos. Es urgente protegerla."
+          />
+          <Cards 
+            title="Coirón" 
+            image= {coiron}
+            subtitle= "Stipa ichu"
+            description="Gramínea perenne de césped denso y láminas finas y ásperas; panícula densa de espiguillas 
+            muy pequeñas. Los antecios son diseminados por el viento gracias al papus que poseen. Se usa para 
+            techados."
+          />
           <Cards 
             title="Tomillo" 
             image= {tomillo}
-            subtitle= "wiiipu"
-            description="kgdñgkdflñkgñldfkgdñlk"
-          />,
+            subtitle= "Acantholippia sriphiodes"
+            description="Pequeño arbusto de 10-30 cm de alto, intrincado, hojas, fasciculadas,
+             diminutas, de 2-6 mm de largo, inflorescencias capituliformes de flores de colora blanco
+             con garganta amarilla, toda la planta fuertemente perfumada. Usa para condimento 
+             y como medicinal."
+          />
+
+      
+          
+      </div>
+
+        <article className='text-black bg-green shadow overflow-hidden rounded'>
+          <div>
+            <h2 className='text-xl font-semibold '>6.2 Fauna</h2>
+            
+          </div>
+            <div className='p-2 space-y-3 leading-snug'>
+              <p className='text-slate-8'>
+               
+              Nuestra área de estudio “Los Reyunos” pertenece geográficamente a la “fauna del 
+              monte”.
+              <br /><br />
+              La fauna del monte constituye en toda su extensión central un abrupto páramo donde 
+              la vegetación y la fauna son exclusivas y donde los efectos físicos dan como resultado la 
+              formación de estratos biológicos más o menos diferenciables. Ubicándose en un espacio 
+              que atraviesa del centro este de Mendoza de norte a sur, hasta llegar al límite de la 
+              provincia vecina de La Pampa. La fauna de esa zona es variada, con 
+              características únicas y en algunos pocos sectores es escasa.
+              <br /><br />
+              Las especies animales presentes en nuestra área de estudio, son muy particuares, ya 
+              que considerando las características de los ambientes áridos (poca agua disponible, 
+              temperaturas extremas, baja productividad), hacen que el establecimiento de estas 
+              especies sea más hostil. Como resultado a estas variables, las especies animales como
+              respuesta evolutivas constituyen un complejo de estrategias que permiten mantener el 
+              balance de agua, regular la temperatura (endotermos y ectotermos) y protegerse ante 
+              el riesgo de depredación.
+              </p>
+
+            </div>
+        </article>
+
+
+        <div className='grid grid-cols-2 p-4 mx-auto gap-2 sm:grid-cols-3 sm:gap-3'>
+          <Cards 
+            title="Zorro gris" 
+            image= {zorroGris}
+            subtitle= "Pseudalopex griseus"
+            description=" Mide 750 mm. (cabeza cuerpo), y 300 de cola. La coloración es gris clara con pelos 
+            negros salpicados por todo el cuerpo. La cola tiene un manto en el dorso y una mancha en la 
+            punta de color negro. Ventralmente es más pálido, llegando a veces al blanco.
+            Habita las estepas y zonas arbustivas áridas del oeste. Es escaso lo que se conoce de la especie, 
+            pues es poco frecuente observarla, ya que está en peligro de extinción. "
+          />
+
+          <Cards 
+            title="Chinchillon de la Sierra" 
+            image= {chinhillon}
+            subtitle= "Langidium viscascia"
+            description=" Nos encontramos ahora ante una familia de roedores más grandes; el chinchillón, que 
+            ahora tratamos, puede medir de 300-400 mm. con cabeza y cuerpo, más 200-400 mm. de la cola. Las 
+            orejas, bien desarrolladas, son apenas un poco menor que la cabeza. Su piel es suave y densa, de 
+            color gris con tintes ocráceos, y presenta una característica clara: una línea de pelos oscura 
+            corre la columna vertebral del animal. El vientre es amarillento crema y la cola, con un denso 
+            fleco de pelos largos, es más oscura. Sus patas tienen cuatro dedos y la planta de los pies es 
+            muy extensa.
+            Su hábitat natural es la zona de alta montaña, principalmente en lugares rocosos y secos donde 
+            forma madrigueras en las grietas. Vive en grupo familiares o colonias y realiza sus actividades 
+            durante la noche, aunque no exclusivamente. "
+          />
+
+          <Cards 
+            title="Guanaco" 
+            image= {guanaco}
+            subtitle= "Lama guanicoe"
+            description=" Es uno de los animales herbívoros más grandes entre los que habitan nuestro suelo. 
+            Puede alcanzar, incluida la cola entre 1.450 mm. y 2.120 mm. de largo. Su altura oscila alrededor 
+            de los 1500 mm. Tiene cuerpo robusto y cuello largo. Su coloración es pardo rojiza, con la cabeza 
+            y cola más oscuras, con el vientre, el pecho y el lado interno de las patas casi blanco.
+            Es un herbívoro rumiante. Acostumbra andar en manadas formadas por un macho adulto y de 4 a 10 
+            hembras, más las crías. Habita las zonas montañosas, en altura hasta 4.500 m., en el oeste de la 
+            provincia. También habita las llanuras, aunque por haber sido muy perseguido, sus poblaciones se 
+            ven muy disminuidas."
+          />
+
+          <Cards 
+            title="Gato montés" 
+            image= {gatoMontes}
+            subtitle= "Felis geoffroyi"
+            description=" Mide 480-510 mm. de cabeza-cuerpo, y 250-280 mm. de cola, tiene una coloración de 
+            fondo blanco amarillenta con gris. Abunda en puntos negros, que en la cola y patas se hacen anillos. 
+            Ventralmente es más pálido. En las orejas presenta una notable manchas blanca, color que se prolonga 
+            en el borde de los ojos, extremo del hocico y en las quijadas.
+            Se ubica en casi toda la provincia. Su alimento está constituido básicamente por pequeñas aves y 
+            roedores. "
+          />
+
+          <Cards 
+            title="Cóndor andino" 
+            image= {condorAndino}
+            subtitle= "Vultur griyphus"
+            description=" Tiene una longitud de 1.200 mm. Es inconfundible por su gran tamaño, pues su envergadura 
+            en algunos casos suprea los 2,50 m. La hembra tiene la cabeza negra, mientras que el macho es rojo 
+            violeta y además provista de una cresta negra. Ambos son negros azabache con parte de las alas de color 
+            blanco. El joven cóndor aparece pardo ocráceo con la cola y punta de las alas negras. Tarda tres años 
+            para presentar plumaje adulto. Frecuenta la alta montaña mendocina. Es el ave capaz de volar más alto 
+            6.000 m. de altura. No es cazador.
+            Desgraciadamente cuando el cóndor se encuentra amenazado su población resulta difícil de ayudar, pues 
+            la hembra pone sólo un huevo al año. Entoncees se deben intentar técnicas de reproducción en cautiverio, 
+            como las realizadas en el zoológico de Bs. As. "
+          />
+
+          <Cards 
+            title="Gato Andino" 
+            image= {gatoAndino}
+            subtitle= "Leopardus jacobita"
+            description="Un felino de tamaño medio, ya que de longitud llega a alcanzar de 60-80 cm, con pelaje 
+            largo y un diseño de manchas color café o rojizo de forma variable (fajas, estrías, 
+            puntos) sobre un fondo plomizo o grisáceo. Lo más característico es su cola fajada con 
+            siete a nueve anillos oscuros, la punta blanca. Esta especie está en peligro de extinción 
+            a causa del hombre y por la caza furtiva, lo relevante del registro es que se lo asociaba 
+            con alturas que van de los 3000 a 5000 msnm, y actualmente en argentina de puede 
+            encontrar a menos altura como lo es en el caso de los Reyunos. "
+          />
+
+          <Cards 
+            title="Comesebo Andino o Yal amarillo" 
+            image= {ceboAndino}
+            subtitle= "Phrygilus gayi"
+            description="Se lo encuentra en los matorrales áridos de los cerros hasta 3.000 m. de altura.
+            El macho tiene el dorso oliva, cabeza y pecho grises con matices celestes; panza amarilla. 
+            La hembra es dorsalmente parda y ventralmente ocrácea con garganta estriada. Longitud 160 mm."
+          />
+
+          <Cards 
+            title="Cormorán biguá" 
+            image= {bigua}
+            subtitle= "Phalacrocarax olivaceus"
+            description="Ave pescadora de pico largo, cola larga y rígida. Sus patas llevan membranas natatorias 
+             en los cuatro dedos, se alimenta de peces y cangrejos, es enteramente negro con matices verdes, 
+             purpúreos y bronceados en las alas. Común en lagunas, ríos dee nuestra provincia y anida tanto en 
+             árboles como en arbustos. Lo llaman pato negro. 
+            Abundan en el dique El Carrizal, en los ríos de San Rafael y aveces se los observa en el lago Parque 
+            Gral. San Martín. "
+          />
+
+          <Cards 
+            title="Chimango" 
+            image= {chimango}
+            subtitle= "Polyborus chimango"
+            description="Es una especie muy abundante en nuestro campo abierto, apareciendo a menudo een bandadas y 
+            en el suelo, donde, por ej., come los insectos descubiertos por el arado. Tiene una coloración dorsal 
+            parda y ventral crema. Su alimentación principal es la carroña, pero puede atrapar batracios, reptiles 
+            y pichones de aves. Longitud de 370 mm."
+          />
+
+          <Cards 
+            title="Catita verde" 
+            image= {catita}
+            subtitle= "Bolborrhynchus aurifrons"
+            description="Es pequeña 180 mm. El macho es verde hierba, la hembra es dorsalmente oliva, ventralmente 
+            gris azulada. Ambos con pico ocráceos amarillento. Es característica su cola corta. Común es verla en 
+            cerros de altura y quebradas mendocinas.
+            Su alimento principal son las semillas, frutos y flores tanto de plantas silvestres (cardos) como 
+            cultivadas, también insectos adultos y sus larvas."
+          />
+
+          <Cards 
+            title="Carpa común" 
+            image= {carpa}
+            subtitle= "Cyprinus carpio"
+            description="Se trata de una especie exótica originaria de Asia. Se halla en casi todos los ambientes 
+            pesqueros de nuestra provincia. Llega a medir 800 mm. de largo, pensando en esos casos más de 5 kg. 
+            Tiene un color pardo verdoso, con flancos más claros y abdomen blanquecino con reflejos dorados. Pez 
+            de fondo, vive en ríos, embalses y lagunas. Se alimenta dde insectos acuáticos, moluscos y también 
+            vegetales. Se reproducee en primavera y verano. Habita en los ríos desaguadero, San Juan, Mendoza, 
+            Tunuyán, Colorado y Embalses Los Reyunos."
+          />
+
+          <Cards 
+            title="Puma" 
+            image= {pumaAndino}
+            subtitle= "Felis concolor"
+            description="Es el mayor de los gatos de la provincia, alcanzando los 1.000-1.300 entre cabeza y cuerpo, 
+            más la cola 500-630 mm. Su cuerpo es robusto y macizo. La coloración, grisácea o pardusca, es uniforme, 
+            presentando más palidez en los costados y un blanco amarillento en el vientre. Las orejas, la comisura 
+            de la boca y la punta de la cola son más oscuras.
+            De hábitos carnívoros, se alimenta de grandes mamíferos como los guanacos, aunque también lo hace de las 
+            vizcachas, piches y tortugas. Vive en las altas cumbres de los cerros y las llanuras."
+          />
           
         </div>
 
-
     
-
-    </div>
+        </div>
+    
   )
 }
 
