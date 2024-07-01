@@ -8,40 +8,35 @@
 - [Licencia](#Licencia)
 
 ## Descripción
-Trabajo de practica profesional, creación de pagina web sobre información sobre Los Reyunos, San Rafael , Mendoza , Argentina.
+Trabajo de práctica profesional final, creación de pagina web estática sobre información sobre Los Reyunos, San Rafael , Mendoza , Argentina.
+Realizado por Ezequiel Mariscal, estudiante de la Tecnicatura en programación en la Universidad Tecnológica Nacional.
 
 ## Instalación
 
+Descargar los archivos contenidos, y tenes insalado react,node , vite, npm.
+Una vez instalado, abrir la terminal en visual studio code.
+y poner : npm run dev. (se abrirá el localhost de la página para su visualización).
+
 
 ## Uso
-Para poder utilizar Pagina de información se debe acceder a la pagina web o al QR.
+Para poder utilizar Pagina de información se debe acceder a la pagina web para poder visualizar una muestra sobre la misma.
+
+https://ezequielmariscal.github.io/Proyecto-infoReyunos/
+
 
 ## Tecnologías implementadas
+
 ### Frontend
-1. HTML + CSS + JS
-2. Opcional preprocesadores de CSS
+1. HTML + CSS + JS + JSX
+2. Opcional preprocesadores de CSS - Tailwind CSS
 3. React
-4. Node + NPM
-### Backend
-5. Java
-6. Spring
-7. Hibernate
-8. API
-9. Rest
-10. JSON
-### Base de datos
-11. MySQL
-12. MySQL Workbench / DBeaver
-### Testing
-13. Postman / Insomnia
-14. Mocha
-15. Selenium
-### Infraestructura
-16. AWS
-17. Terraform
+4. Vite
+5. Node + NPM
+
 ### Gestion
-18. Git + Github
-19. Github Destkop
+6. Git + Github
+7. Github Destkop
+8. Visual Studio Code
 
 ## Licencia
 
