@@ -30,20 +30,13 @@ import piquillin from '/src/assets/images/piquillin.png'
 
 
 
-
-
-
-
-
-
-
 function Blogs() {
   return (
     <div>
         <article className='text-black bg-green shadow overflow-hidden rounded'>
           <div>
             <h2 className='text-xl font-semibold '>2.Localización</h2>
-            <img className='object-cover object-center' src={mapaDiamante}></img>
+            <img className='object-cover object-center mx-auto' src={mapaDiamante}></img>
           </div>
             <div className='p-2 space-y-3 leading-snug'>
               <p className='text-slate-8'>
@@ -65,7 +58,7 @@ function Blogs() {
         <article className='text-black bg-green shadow overflow-hidden rounded'>
           <div>
             <h2 className='text-xl font-semibold '>3.Dique Los Reyunos</h2>
-            <img className='object-cover object-center' src={embalseReyunos}></img>
+            <img className='object-cover object-center mx-auto' src={embalseReyunos}></img>
           </div>
             <div className='p-2 space-y-3 leading-snug'>
               <p className='text-slate-8'>
@@ -97,7 +90,7 @@ function Blogs() {
         <article className='text-black bg-green shadow overflow-hidden rounded'>
           <div>
             <h2 className='text-xl font-semibold '>4.Clima</h2>
-            <img className='object-cover object-center' src={clima}></img>
+            <img className='object-cover object-center mx-auto' src={clima}></img>
           </div>
             <div className='p-2 space-y-3 leading-snug'>
               <p className='text-slate-8'>
@@ -120,7 +113,7 @@ function Blogs() {
         <article className='text-black bg-green shadow overflow-hidden rounded'>
           <div>
             <h2 className='text-xl font-semibold '>5.Geología</h2>
-            <img className='object-cover object-center' src={geologia}></img>
+            <img className='object-cover object-center mx-auto' src={geologia}></img>
           </div>
             <div className='p-2 space-y-3 leading-snug'>
               <p className='text-slate-8'>
@@ -212,7 +205,7 @@ function Blogs() {
         <article className='text-black bg-green shadow overflow-hidden rounded'>
           <div>
             <h2 className='text-xl font-semibold '>6.Dimensión biológica</h2>
-            <img className='object-cover object-center' src={mapaFitogeografico}></img>
+            <img className='object-cover object-center mx-auto' src={mapaFitogeografico}></img>
           </div>
             <div className='p-2 space-y-3 leading-snug'>
               <p className='text-slate-8'>
@@ -248,7 +241,7 @@ function Blogs() {
             </div>
         </article>
 
-        <div className='grid grid-cols-2 p-4 mx-auto gap-2 sm:grid-cols-3 sm:gap-3'>
+        <div className='grid grid-cols-1 p-4 mx-auto gap-2 sm:grid-cols-3 sm:gap-3'>
           <Cards 
             title="Algarrobo dulce" 
             image= {algarroboDulce}
@@ -372,7 +365,7 @@ function Blogs() {
         </article>
 
 
-        <div className='grid grid-cols-2 p-4 mx-auto gap-2 sm:grid-cols-3 sm:gap-3'>
+        <div className='grid grid-cols-1 p-4 mx-auto gap-2 sm:grid-cols-3 sm:gap-3'>
           <Cards 
             title="Zorro gris" 
             image= {zorroGris}
